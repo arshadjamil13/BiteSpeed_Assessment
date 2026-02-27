@@ -44,15 +44,15 @@ It follows the Bitespeed requirements:
 
 ### Table: `Contact`
 
-  Column           Type         Description
-  ---------------- ------------ ----------------------
-  id               UUID / INT   Primary Key
-  email            TEXT         Nullable
-  phoneNumber      TEXT         Nullable
-  linkedId         UUID / INT   Points to Primary
-  linkPrecedence   TEXT         Primary / Secondary
-  createdAt        TIMESTAMP    Record creation time
-  updatedAt        TIMESTAMP    Auto updated
+| Column        | Type       | Description            |
+|---------------|------------|------------------------|
+| id            | UUID / INT | Primary Key            |
+| email         | TEXT       | Nullable               |
+| phoneNumber   | TEXT       | Nullable               |
+| linkedId      | UUID / INT | Points to Primary      |
+| linkPrecedence| TEXT       | Primary / Secondary    |
+| createdAt     | TIMESTAMP  | Record creation time   |
+| updatedAt     | TIMESTAMP  | Auto updated           |
 
 ------------------------------------------------------------------------
 
